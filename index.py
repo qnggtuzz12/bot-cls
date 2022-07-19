@@ -13,7 +13,7 @@ import youtube_dl
 from dotenv import load_dotenv
 import asyncio
 
-
+https://github.com/qnggtuzz12/bot-cls/blob/main/index.py
 youtube_dl.utils.bug_reports_message = lambda: ''
 ytdl_format_options = {
     'format': 'bestaudio/best',
@@ -421,4 +421,4 @@ async def kick(ctx, member : discord.Member, *, reason = None):
 
     await ctx.send(f'User ***{member}*** has been kick')
 
-bot.run('OTI5Mzg0ODU4MzgyMzg5MjQ4.G-NsZc.sLEW0Xaym3piwDLhD5dRH_c36Cv0oTKiGceU0w')
+bot.run('ur token')
